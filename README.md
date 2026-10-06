@@ -69,6 +69,25 @@ pip install -r requirements.txt
 ## 7. How to Configure and Run the System
 1. **Set Up API Keys:**
    Create a `.env` file in the root directory and add your API key:
-   ```env
+```env
    OPENAI_API_KEY=your_api_key_here
-   python main.py
+```
+2. **Run the Main Application:**
+```bash
+python main.py
+ ```
+
+   ---
+
+## 8. How to Reproduce Demonstrated Results & Evidence
+**To verify that our system produces verifiable, proof-carrying answers:**
+1. Place the test datasets (sales.csv, customers.csv, refunds.csv) into the data/ folder.
+2. Run the automated test script:
+  ```bash
+  python run_tests.py
+  ```
+
+---
+
+## 9. Sample Input & Output
+*[[ Live Sample with Python code generated to be pasted here after testing]]*
