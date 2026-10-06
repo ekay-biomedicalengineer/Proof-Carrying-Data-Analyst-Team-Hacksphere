@@ -8,7 +8,7 @@
 ## 1. What the Project Does
 Our project is an AI-powered data analyst agent designed to answer complex questions across messy, multi-table datasets. 
 
-Unlike traditional AI assistants that guess or hallucinate numerical answers, our system generates **verifiable, re-runnable Python code** for every calculation. It automatically handles real-world data issues (e.g., duplicate rows, missing values, mismatched currencies, and date ambiguities) and is programmed to explicitly refuse unanswerable or ambiguous questions.
+Unlike traditional AI assistants that guess or hallucinate numerical answers, our system generates **verifiable, re-runnable Python code** for every calculation. It automatically handles real-world data issues (e.g., duplicate rows, missing values, mismatched currencies, and date ambiguities) and is programmed to explicitly refuse unanswerable or ambiguous questions whilst providing reasons as to why.
 
 ---
 
@@ -16,7 +16,7 @@ Unlike traditional AI assistants that guess or hallucinate numerical answers, ou
 The central architecture consists of three main components:
 1. **Data Normalization & Inspection:** Scans multi-table datasets to identify schema mismatches, duplicate entries, missing values, and unit inconsistencies.
 2. **Code Generation & Execution:** Translates natural language questions into executable Pandas/Python code to perform precise data analysis.
-3. **Proof & Refusal Guardrails:** Runs the generated code in an execution pipeline to confirm accuracy[cite: 12]. If the question is unanswerable due to missing data or inherent ambiguity, the agent refuses to guess and provides a reasoned explanation.
+3. **Proof & Refusal Guardrails:** Runs the generated code in an execution pipeline to confirm accuracy. If the question is unanswerable due to missing data or inherent ambiguity, the agent refuses to guess and provides a reasoned explanation.
 
 ---
 
@@ -55,10 +55,20 @@ To install and set up the required dependencies, run the following commands in y
 
 ```bash
 # Clone the repository
-git clone [https://github.com/](https://github.com/)ekay-biomedicalengineer/Proof-Carrying-Data-Analyst-Team-Haccksphere.git
+git clone https://github.com/ekay-biomedicalengineer/Proof-Carrying-Data-Analyst-Team-Haccksphere.git
 
 # Navigate into the project folder
 cd Proof-Carrying-Data-Analyst-Team-Haccksphere
 
 # Install required packages
 pip install -r requirements.txt
+```
+
+---
+
+## 7. How to Configure and Run the System
+1. **Set Up API Keys:**
+   Create a `.env` file in the root directory and add your API key:
+   ```env
+   OPENAI_API_KEY=your_api_key_here
+   python main.py
