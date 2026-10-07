@@ -81,7 +81,7 @@ python main.py
 
 ## 8. How to Reproduce Demonstrated Results & Evidence
 **To verify that our system produces verifiable, proof-carrying answers:**
-1. Place the test datasets (sales.csv, customers.csv, refunds.csv) into the data/ folder.
+1. Place the test datasets (sales.csv, customers.csv, products.csv) into the data/ folder.
 2. Run the automated test script:
   ```bash
   python run_tests.py
