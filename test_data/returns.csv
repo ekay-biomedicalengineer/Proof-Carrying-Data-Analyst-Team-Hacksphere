@@ -1,0 +1,5 @@
+refund_id,order_no,refund_amount,reason
+RF1,B102,320,damaged
+RF2,B104,100,late
+RF3,B108,,changed mind
+RF4,B105,45,wrong item
