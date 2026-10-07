@@ -74,7 +74,7 @@ pip install -r requirements.txt
 ```
 2. **Run the Main Application:**
 ```bash
-python main.py
+python app.py
  ```
 
    ---
