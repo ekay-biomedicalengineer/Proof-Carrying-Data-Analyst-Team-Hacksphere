@@ -43,8 +43,8 @@ The flow of data through our system works as follows:
 ---
 
 ## 5. Technologies, Libraries, and Models Used
-- **Programming Language:** 
-- **LLM / AI Framework:** 
+- **Programming Language:** Python 3.10+
+- **LLM / AI Framework:** Claude
 - **Data Processing Libraries:** 
 - **Environment:** Public Git Repository
 
