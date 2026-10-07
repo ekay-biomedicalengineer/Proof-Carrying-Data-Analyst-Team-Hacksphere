@@ -22,7 +22,7 @@ The central architecture consists of three main components:
 
 ## 3. Data Pipeline
 The flow of data through our system works as follows:
-- **Collection:** Input data is provided via multiple CSV files (e.g., `sales.csv`, `customers.csv`, `refunds.csv`).
+- **Collection:** Input data is provided via multiple CSV files (e.g., `sales.csv`, `customers.csv`, `products.csv`).
 - **Processing:** Data tables are ingested, cleaned, and joined inside our Python execution environment.
 - **Output Routing:** The processed data is queried by generated code, producing both the final numerical/text answer and the raw executable script as proof.
 
