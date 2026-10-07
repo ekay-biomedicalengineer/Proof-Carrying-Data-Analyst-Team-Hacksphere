@@ -43,9 +43,9 @@ The flow of data through our system works as follows:
 ---
 
 ## 5. Technologies, Libraries, and Models Used
-- **Programming Language:** Python 3.10+
-- **LLM / AI Framework:** [e.g., OpenAI API / LangChain / LlamaIndex]
-- **Data Processing Libraries:** Pandas, NumPy
+- **Programming Language:** 
+- **LLM / AI Framework:** 
+- **Data Processing Libraries:** 
 - **Environment:** Public Git Repository
 
 ---
